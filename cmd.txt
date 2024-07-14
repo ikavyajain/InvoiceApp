@@ -1,0 +1,14 @@
+composer create laravel/laravel <app-name>
+
+npm install
+npm install vue-loader@next vue@next vue-router@next
+npm install @vitejs/plugin-vue --force --save -dev
+npm run dev
+php artisan serve
+
+go to vite.config.js{
+    import vue from '@vitejs/plugin-vue'
+    and vue()
+}
+
+resource-js>create(component>app.vue)>app.js
